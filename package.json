@@ -1,0 +1,39 @@
+{
+  "name": "creepjs-on-happy-dom",
+  "version": "0.0.1",
+  "description": "Integration of creepjs with happy-dom for Chrome browser emulation and fingerprinting testing",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && tsc-alias && node scripts/fix-esm-extensions.cjs",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "cli": "node dist/cli.js",
+    "clean": "rm -rf dist",
+    "example": "tsx examples/basic-usage.ts",
+    "example:mobile": "tsx examples/mobile-profiles-demo.ts"
+  },
+  "keywords": [
+    "creepjs",
+    "happy-dom",
+    "browser-emulation",
+    "fingerprinting",
+    "chrome"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "creepjs": "^1.0.0",
+    "happy-dom": "^12.10.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsc-alias": "^1.8.8",
+    "tsx": "^4.20.3",
+    "typescript": "^5.3.3",
+    "vite": "^7.1.1",
+    "vitest": "^1.1.0"
+  }
+}

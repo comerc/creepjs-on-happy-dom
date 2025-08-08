@@ -1,0 +1,26 @@
+{
+  "name": "chrome-139-macos",
+  "description": "Chrome 139 Desktop macOS (Latest)",
+  "config": {
+    "chromeVersion": "139.0.7258.67",
+    "platform": "MacIntel",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "webgl": {
+      "vendor": "Google Inc. (Apple)",
+      "renderer": "ANGLE (Apple, Apple M1, OpenGL 4.1)",
+      "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)"
+    },
+    "audio": {
+      "sampleRate": 48000,
+      "maxChannelCount": 2
+    },
+    "performance": {
+      "enableRealisticTiming": true,
+      "baseLatency": 0.08
+    }
+  }
+}

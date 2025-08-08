@@ -1,0 +1,26 @@
+{
+  "name": "chrome-139-windows",
+  "description": "Chrome 139 Desktop Windows (Latest)",
+  "config": {
+    "chromeVersion": "139.0.7258.67",
+    "platform": "Win32",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "webgl": {
+      "vendor": "Google Inc. (Intel)",
+      "renderer": "ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00005917) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)"
+    },
+    "audio": {
+      "sampleRate": 48000,
+      "maxChannelCount": 2
+    },
+    "performance": {
+      "enableRealisticTiming": true,
+      "baseLatency": 0.1
+    }
+  }
+}

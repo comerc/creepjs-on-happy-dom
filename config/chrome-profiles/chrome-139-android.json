@@ -1,0 +1,26 @@
+{
+  "name": "chrome-139-android",
+  "description": "Chrome 139 Android Mobile (Latest)",
+  "config": {
+    "chromeVersion": "139.0.7258.62",
+    "platform": "Linux armv8l",
+    "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36",
+    "viewport": {
+      "width": 412,
+      "height": 915
+    },
+    "webgl": {
+      "vendor": "Qualcomm",
+      "renderer": "Adreno (TM) 660",
+      "version": "WebGL 1.0 (OpenGL ES 2.0 Adreno)"
+    },
+    "audio": {
+      "sampleRate": 48000,
+      "maxChannelCount": 2
+    },
+    "performance": {
+      "enableRealisticTiming": true,
+      "baseLatency": 0.18
+    }
+  }
+}

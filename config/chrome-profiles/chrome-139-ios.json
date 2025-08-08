@@ -1,0 +1,26 @@
+{
+  "name": "chrome-139-ios",
+  "description": "Chrome 139 iOS Mobile (Latest)",
+  "config": {
+    "chromeVersion": "139.0.7258.76",
+    "platform": "iPhone",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/139.0.0.0 Mobile/15E148 Safari/604.1",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "webgl": {
+      "vendor": "Apple Inc.",
+      "renderer": "Apple GPU",
+      "version": "WebGL 1.0 (OpenGL ES 2.0 Apple GPU)"
+    },
+    "audio": {
+      "sampleRate": 48000,
+      "maxChannelCount": 2
+    },
+    "performance": {
+      "enableRealisticTiming": true,
+      "baseLatency": 0.15
+    }
+  }
+}
